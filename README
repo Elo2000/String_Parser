@@ -1,0 +1,30 @@
+String Parser
+Authored by Helena Khalilieh 
+
+•Description:
+First of all this program checks how many words there are in a string by dividing every string into words ,then checks how many letters there are in every single word. After that stores them in “malloc” in the array.
+Allocate memory for word array, and strings, Check input for a space(s), Separate into individual words and pass into array, Return the number of elements within the array as this will indicate the number of words and then the same thing with the letters.For each string received, the number of words received and the number of characters must be printed on the screen,In addition, the history of the typed strings must be saved. And while typing the word history The program will print the history of the strings 
+
+•Functions:
+In this exercices we have two main functions:
+1-int list_add(const char * word) : Add word to the list
+2-int load_list(const char * filename):Load the words from file to list
+3-int save_list(const char * filename):Save the words from list to file
+
+
+•Program Files:
+main.c- contain the main only and all the functions . 
+
+•How to compile?
+Compile: gcc -Wall -o ex1 main.c 
+Run: ./ex1
+
+•Input: 
+A string that we choose it
+Ex: Good morning
+
+•Output:
+How many words is there in the string and how many letter there are in every word ,after that by writing the world "history" it will return ll the written words above.and if the user writes exit it will stop and create the list.txt 
+Ex: 2 words 
+    11 chars
+
